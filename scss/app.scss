@@ -10,32 +10,65 @@
 @include foundation-forms;
 @include foundation-visibility-classes;
 @include foundation-float-classes;
-@include foundation-accordion;
-@include foundation-accordion-menu;
-@include foundation-badge;
-@include foundation-breadcrumbs;
-@include foundation-button-group;
-@include foundation-callout;
-@include foundation-close-button;
-@include foundation-drilldown-menu;
-@include foundation-dropdown;
-@include foundation-dropdown-menu;
-@include foundation-flex-video;
-@include foundation-label;
-@include foundation-media-object;
+// @include foundation-accordion;
+// @include foundation-accordion-menu;
+// @include foundation-badge;
+// @include foundation-breadcrumbs;
+// @include foundation-button-group;
+// @include foundation-callout;
+// @include foundation-close-button;
+// @include foundation-drilldown-menu;
+// @include foundation-dropdown;
+// @include foundation-dropdown-menu;
+// @include foundation-flex-video;
+// @include foundation-label;
+// @include foundation-media-object;
 @include foundation-menu;
-@include foundation-off-canvas;
-@include foundation-orbit;
-@include foundation-pagination;
-@include foundation-progress-bar;
-@include foundation-slider;
-@include foundation-sticky;
-@include foundation-reveal;
-@include foundation-switch;
-@include foundation-table;
-@include foundation-tabs;
-@include foundation-thumbnail;
+// @include foundation-off-canvas;
+// @include foundation-orbit;
+// @include foundation-pagination;
+// @include foundation-progress-bar;
+// @include foundation-slider;
+// @include foundation-sticky;
+// @include foundation-reveal;
+// @include foundation-switch;
+// @include foundation-table;
+// @include foundation-tabs;
+// @include foundation-thumbnail;
 @include foundation-title-bar;
-@include foundation-tooltip;
+// @include foundation-tooltip;
 @include foundation-top-bar;
 
+.ba-mt {
+	margin-top: 20px;
+}
+
+.ba-img {
+	position: relative;
+	&__block {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		padding: 20px;
+		color: #FFF;
+		font-size: 30px;
+		font-family: 'Myriad Pro', sans-serif;
+		letter-spacing: 0.7px;
+		background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, transparent 100%);
+		text-transform: uppercase;
+		font-weight: bold;
+		span {
+			font-size: 13px;
+		}
+	}
+	.ba-girl {
+		padding: 140px 0;
+		position: relative;
+		.ba-girl__text {
+			position: relative;
+			padding: 150px 0;
+			background-color: #FFF;
+		}
+	}
+}
